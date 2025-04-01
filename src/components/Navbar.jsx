@@ -139,8 +139,8 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <ColorText>&lt;</ColorText>Rishav
-          <div style={{ color: theme.primary }}>/</div>Chanda
+          <ColorText>&lt;</ColorText>Rohan
+          <div style={{ color: theme.primary }}>/</div>Patel
           <ColorText>&gt;</ColorText>
         </NavLogo>
 
@@ -153,7 +153,7 @@ const Navbar = () => {
           <NavLink href="#Skills">Skills</NavLink>
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
+          {/* <NavLink href="#Education">Education</NavLink> */}
         </NavItems>
 
         {isOpen && (

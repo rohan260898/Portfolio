@@ -40,37 +40,37 @@ const Wrapper = styled.div`
 function App() {
   const [openModal, setOpenModal] = useState({ state: false, project: null });
   return (
-    <h1> Due to some glitch, Protfolio is not showing. will be updating it soon, Thanks. </h1>
-    // <ThemeProvider theme={darkTheme}>
-    //   <BrowserRouter>
-    //     <Navbar />
-    //     <Body>
-    //       <StarCanvas />
-    //       <AnimatePresence>
-    //         <div>
-    //           <Hero />
-    //           <Wrapper>
-    //             <Skills />
-    //             <Experience />
-    //           </Wrapper>
-    //           <Projects openModal={openModal} setOpenModal={setOpenModal} />
-    //           <Wrapper>
-    //             <Education />
-    //             <Contact />
-    //           </Wrapper>
-    //           <Footer />
+    // <h1> Due to some glitch, Protfolio is not showing. will be updating it soon, Thanks. </h1>
+    <ThemeProvider theme={darkTheme}>
+      <BrowserRouter>
+        <Navbar />
+        <Body>
+          <StarCanvas />
+          <AnimatePresence>
+            <div>
+              <Hero />
+              <Wrapper>
+                <Skills />
+                <Experience />
+              </Wrapper>
+              {/* <Projects openModal={openModal} setOpenModal={setOpenModal} /> */}
+              <Wrapper>
+                {/* <Education /> */}
+                <Contact />
+              </Wrapper>
+              <Footer />
 
-    //           {openModal.state && (
-    //             <ProjectDetails
-    //               openModal={openModal}
-    //               setOpenModal={setOpenModal}
-    //             />
-    //           )}
-    //         </div>
-    //       </AnimatePresence>
-    //     </Body>
-    //   </BrowserRouter>
-    // </ThemeProvider>
+              {openModal.state && (
+                <ProjectDetails
+                  openModal={openModal}
+                  setOpenModal={setOpenModal}
+                />
+              )}
+            </div>
+          </AnimatePresence>
+        </Body>
+      </BrowserRouter>
+    </ThemeProvider>
   );
 }
 

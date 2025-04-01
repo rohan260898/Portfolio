@@ -5,9 +5,9 @@ export const Bio = {
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/rishavchanda",
+  github: "https://github.com/rohan260898",
   resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
+    "https://drive.google.com/file/d/19z15VZQ4wd5Ce1TIKOmZ4PBaI6tTyxgJ/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
   twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/rishav_chanda/",
@@ -274,11 +274,18 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Nov 2023",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    img: "https://drive.google.com/file/d/193GZuALXHnCPHP41rGAnWqxi91EuuR0Z/view?usp=drive_link",
+    role: "Software Developer",
+    company: "Crrank",
+    date: "May 2024 - Dec 2024",
+    desc: `
+    - Developed a web application from scratch using React and Laravel, enabling users to track vehicle maintenance and expenses, reducing costs by 25%.\n
+    - Designed and implemented dynamic vehicle management pages, enhancing user engagement and ensuring seamless data input for thousands of users.\n
+    - Integrated an insurance and expense tracking feature, allowing users to monitor their expenses monthly and yearly, logging over 50,000 expense entries.\n
+    - Enhanced user experience with interactive expense charts, improving financial tracking accuracy and helping users visualize spending patterns effectively.\n
+    - Developed an automated insurance quote request feature, reducing manual effort and processing over 2,000 requests monthly.\n
+    - Managed the admin panel and front-end interfaces while conducting rigorous testing, reducing post-deployment bugs by 35% and streamlining issue resolution.
+  `,
     skills: [
       "ReactJS",
       "Redux",
@@ -288,14 +295,13 @@ export const experiences = [
       "CSS",
       "JavaScript",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - Oct 2023",
+    img: "https://drive.google.com/file/d/193GZuALXHnCPHP41rGAnWqxi91EuuR0Z/view?usp=drive_link",
+    role: "Software Developer(internship)",
+    company: "Crrank",
+    date: "Jan 2023 - Apr 2023",
     desc: "Built Flipr Connect Platforms using React Js integrated GraphQL with AXIOS, created High level Design and Figma design. Built Backend with GraphQL and Node JS and connected with MongoDb - Reducing API calls by 20%. Dockerized and automated with Kubernetes & Jenkins CI/CD deployed in AWS-EC2 added Prometheus & Grafana for monitoring.",
     skills: [
       "Docker",
@@ -309,15 +315,18 @@ export const experiences = [
       "Node Js",
       " Next Js",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
   },
   {
     id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "• Built RudraShakti - Astrologer App, with MVVM Architecture using Java and Android Studio integrating Firebase SDK. Created One to One video call integration with Socket.IO and Firebase cloud functions and integrated with Retrofit. Created Low Level Design and converted Figma design to XML code.",
+    img: "https://drive.google.com/file/d/137Zk_Xs2A-UXw6hbMKiPV7v__P4VsszL/view",
+    role: "Full Stack Developer",
+    company: "Silverwings Technologies PVT LTD;",
+    date: "Sep 2020 - Aug 2021",
+    desc: `
+  - Operated in a multifaceted role as a Full Stack Developer, contributing to 10+ small-scale projects requiring a mix of front-end, back-end, and full-stack development.\n
+  - Reviewed and validated teammates' code as a tester, ensuring quality and reducing bugs by 30% through rigorous testing and feedback.\n
+  - Demonstrated adaptability by efficiently shifting between programming, testing, and support roles, contributing to faster project completion and improved team efficiency.
+`,
     skills: [
       "Android",
       "Java",
@@ -328,51 +337,6 @@ export const experiences = [
       "Firebase",
       "Figma",
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
-  },
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
-  },
-  {
-    id: 5,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributed to different open-source projects and learn from industry experts",
   },
 ];
 
