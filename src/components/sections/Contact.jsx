@@ -132,18 +132,18 @@ const Contact = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
+        "service_kzhrmze",
+        "template_j3ty1r4",
         form.current,
-        "SybVGsYS52j2TfLbi"
+        "Tcos0AQjWVJe5WUi6"
       )
       .then(
         (result) => {
-          alert("Message Sent");
-          form.current.resut();
+          alert("Message Sent: " + result.text); // or result.status for status code
+          form.current.reset(); // Reset the form
         },
         (error) => {
-          alert(error);
+          alert("Error: " + error.text); // Display error message
         }
       );
   };
@@ -156,7 +156,7 @@ const Contact = () => {
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handleSubmit}>
+        <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />

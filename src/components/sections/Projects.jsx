@@ -104,10 +104,11 @@ const Projects = ({ openModal, setOpenModal }) => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+           Due to a temporary issue with my Bitbucket pipeline, the projects are not currently displaying. I'm working on fixing this and will have them up soon. Thank you for your patience and understanding!
+          {/* I have worked on a wide range of projects. From web apps to android
+          apps. Here are some of my projects. */}
         </Desc>
-        <ToggleButtonGroup>
+        {/* <ToggleButtonGroup>
           <ToggleButton
             active={toggle === "all"}
             onClick={() => setToggle("all")}
@@ -135,8 +136,8 @@ const Projects = ({ openModal, setOpenModal }) => {
           >
             MACHINE LEARNING
           </ToggleButton>
-        </ToggleButtonGroup>
-        <CardContainer>
+        </ToggleButtonGroup> */}
+        {/* <CardContainer>
           {toggle === "all" &&
             projects.map((project) => (
               <ProjectCard
@@ -154,7 +155,7 @@ const Projects = ({ openModal, setOpenModal }) => {
                 setOpenModal={setOpenModal}
               />
             ))}
-        </CardContainer>
+        </CardContainer> */}
       </Wrapper>
     </Container>
   );
