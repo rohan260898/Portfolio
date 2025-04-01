@@ -32,6 +32,7 @@ const Role = styled.div`
     font-size: 14px;
   }
 `;
+
 const Company = styled.div`
   font-size: 14px;
   font-weight: 500px;
@@ -41,6 +42,7 @@ const Company = styled.div`
     font-size: 12px;
   }
 `;
+
 const Date = styled.div`
   font-size: 12px;
   font-weight: 400px;
@@ -50,6 +52,7 @@ const Date = styled.div`
     font-size: 10px;
   }
 `;
+
 const Grade = styled.div`
   font-size: 14px;
   font-weight: 500;
@@ -69,16 +72,19 @@ const Description = styled.div`
     font-size: 12px;
   }
 `;
+
 const Span = styled.div`
   display: -webkit-box;
   max-width: 100%;
 `;
+
 const Skills = styled.div`
   width: 100%;
   display: flex;
   gap: 12px;
   margin-top: -10px;
 `;
+
 const Skill = styled.div`
   font-size: 15px;
   font-weight: 400;
@@ -132,10 +138,16 @@ const ExperienceCard = ({ experience }) => {
         </Body>
       </Top>
       <Description>
-        {experience?.desc && <Span>{experience?.desc}</Span>}
+        {/* Use dangerouslySetInnerHTML to properly render line breaks */}
+        {experience?.desc && (
+          <Span
+            dangerouslySetInnerHTML={{
+              __html: experience.desc.replace(/\n/g, "<br />"),
+            }}
+          />
+        )}
         {experience?.skills && (
           <>
-            <br />
             <Skills>
               <b>Skills:</b>
               <ItemWrapper>

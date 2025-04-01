@@ -193,27 +193,27 @@ export const experiences = [
     company: "Crrank",
     date: "May 2024 - Dec 2024",
     desc: `
-    - Developed a web application from scratch using React and Laravel, enabling users to track vehicle maintenance and expenses, reducing costs by 25%.\n
-    - Designed and implemented dynamic vehicle management pages, enhancing user engagement and ensuring seamless data input for thousands of users.\n
-    - Integrated an insurance and expense tracking feature, allowing users to monitor their expenses monthly and yearly, logging over 50,000 expense entries.\n
-    - Enhanced user experience with interactive expense charts, improving financial tracking accuracy and helping users visualize spending patterns effectively.\n
-    - Developed an automated insurance quote request feature, reducing manual effort and processing over 2,000 requests monthly.\n
+    - Developed a web application from scratch using React and Laravel, enabling users to track vehicle maintenance and expenses, reducing costs by 25%.<br />
+    - Designed and implemented dynamic vehicle management pages, enhancing user engagement and ensuring seamless data input for thousands of users.<br />
+    - Integrated an insurance and expense tracking feature, allowing users to monitor their expenses monthly and yearly, logging over 50,000 expense entries.<br />
+    - Enhanced user experience with interactive expense charts, improving financial tracking accuracy and helping users visualize spending patterns effectively.<br />
+    - Developed an automated insurance quote request feature, reducing manual effort and processing over 2,000 requests monthly.<br />
     - Managed the admin panel and front-end interfaces while conducting rigorous testing, reducing post-deployment bugs by 35% and streamlining issue resolution.
   `,
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
+    // skills: [
+    //   "ReactJS",
+    //   "Redux",
+    //   "NodeJs",
+    //   "Material UI",
+    //   "HTML",
+    //   "CSS",
+    //   "JavaScript",
+    // ],
   },
   {
     id: 1,
     img: "https://i.imgur.com/YY8bIvS.jpeg",
-    role: "Software Developer(internship)",
+    role: "Software Developer(Capstone Project)",
     company: "Crrank",
     date: "Jan 2023 - Apr 2023",
     desc: `
@@ -225,18 +225,18 @@ export const experiences = [
   - Designed pages to manage users, expenses, vehicles, and insurance, ensuring cross-browser compatibility and secure authentication.\n
   - Proactively identified and resolved technical issues, improving system reliability and enhancing customer satisfaction.
 `,
-    skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
-    ],
+    // skills: [
+    //   "Docker",
+    //   "Terraform",
+    //   "AWS",
+    //   "EC2",
+    //   "Portainer",
+    //   "Nginx",
+    //   "JavaScript",
+    //   "TypeScript",
+    //   "Node Js",
+    //   " Next Js",
+    // ],
   },
   {
     id: 2,
@@ -249,16 +249,16 @@ export const experiences = [
   - Reviewed and validated teammates' code as a tester, ensuring quality and reducing bugs by 30% through rigorous testing and feedback.\n
   - Demonstrated adaptability by efficiently shifting between programming, testing, and support roles, contributing to faster project completion and improved team efficiency.
 `,
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
+    // skills: [
+    //   "Android",
+    //   "Java",
+    //   "Kotlin",
+    //   "XML",
+    //   "Node Js",
+    //   "Cloud Firestore",
+    //   "Firebase",
+    //   "Figma",
+    // ],
   },
 ];
 
